@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "bazel_4_2_1": {
+      "locked": {
+        "lastModified": 1630351396,
+        "narHash": "sha256-y0BlDNzggaioLIRgedatEOm7xj4CqmNPkvEYs2pGqUo=",
+        "owner": "timothyklim",
+        "repo": "nixpkgs",
+        "rev": "4b8c664c7e87fd2a8beabff7b6772e40405cd658",
+        "type": "github"
+      },
+      "original": {
+        "owner": "timothyklim",
+        "ref": "bazel-4.2.0",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1630481079,
+        "narHash": "sha256-leWXLchbAbqOlLT6tju631G40SzQWPqaAXQG3zH1Imw=",
+        "path": "/nix/store/dnzj42036l08pn9xwzgax8nbn2kk504s-source",
+        "rev": "110a2c9ebbf5d4a94486854f18a37a938cfacbbb",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "bazel_4_2_1": "bazel_4_2_1",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
